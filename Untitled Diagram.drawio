@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-02T14:24:48.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="_5sGaTsGdiME2yi0fiXw" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-02T14:42:36.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="jYsvmuJRWeeY9V84W3hm" version="12.7.9" type="github">
   <diagram id="0rO4H0AOjrc8wskct2MH" name="ページ1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,11 @@
         </mxCell>
         <mxCell id="8d0hMVgpY54n9cvfxiN_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8d0hMVgpY54n9cvfxiN_-1" target="8d0hMVgpY54n9cvfxiN_-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8d0hMVgpY54n9cvfxiN_-1" target="dAQDUS-45XpWEjmuFLyP-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8d0hMVgpY54n9cvfxiN_-1" value="トップ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
@@ -47,6 +52,37 @@
         </mxCell>
         <mxCell id="8d0hMVgpY54n9cvfxiN_-19" value="議員名検索&#xa;選挙区単位検索" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="180" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-4" value="出力データ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="80" height="78" as="geometry">
+            <mxRectangle x="360" y="170" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-5" value="議題" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-4">
+          <mxGeometry y="26" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-6" value="議員名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-4">
+          <mxGeometry y="52" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-8" value="出力データ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="80" height="130" as="geometry">
+            <mxRectangle x="520" y="170" width="90" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-9" value="議題" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+          <mxGeometry y="26" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-10" value="議員名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+          <mxGeometry y="52" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-11" value="選挙区" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+          <mxGeometry y="78" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-18" value="発言内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+          <mxGeometry y="104" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-19" value="ログイン" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
