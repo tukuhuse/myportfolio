@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-02T14:42:36.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="jYsvmuJRWeeY9V84W3hm" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-02T14:53:41.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="W52Xl_V5IbcoXtTVzvSf" version="12.7.9" type="github">
   <diagram id="0rO4H0AOjrc8wskct2MH" name="ページ1">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,8 +81,32 @@
         <mxCell id="dAQDUS-45XpWEjmuFLyP-18" value="発言内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
           <mxGeometry y="104" width="80" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dAQDUS-45XpWEjmuFLyP-19" target="dAQDUS-45XpWEjmuFLyP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dAQDUS-45XpWEjmuFLyP-19" value="ログイン" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dAQDUS-45XpWEjmuFLyP-22" target="dAQDUS-45XpWEjmuFLyP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-22" value="プロフィール&lt;br&gt;画面" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-24" value="プロフィール&lt;br&gt;画面" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-21" value="" style="line;strokeWidth=2;direction=south;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="20" width="10" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-27" value="ログイン情報" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="100" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-28" value="ユーザー名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-27">
+          <mxGeometry y="22" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dAQDUS-45XpWEjmuFLyP-29" value="パスワード" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-27">
+          <mxGeometry y="48" width="100" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
