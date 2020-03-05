@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T14:52:05.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="NJ9R0MwpVZJb8EG4KoBX" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-05T16:04:54.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="T9p9ZIlyexpiPStU8taI" version="12.7.9" type="github">
   <diagram id="0rO4H0AOjrc8wskct2MH" name="ページ1">
     <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
           <mxGeometry y="52" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dAQDUS-45XpWEjmuFLyP-8" value="出力データ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="490" y="170" width="150" height="208" as="geometry">
+          <mxGeometry x="520" y="170" width="150" height="208" as="geometry">
             <mxRectangle x="520" y="170" width="90" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -81,13 +81,13 @@
         <mxCell id="dAQDUS-45XpWEjmuFLyP-18" value="発言内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dAQDUS-45XpWEjmuFLyP-8" vertex="1">
           <mxGeometry y="104" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k88-d9VjDGWnWwPNP36y-26" value="いいね数（on,off切替）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+        <mxCell id="k88-d9VjDGWnWwPNP36y-26" value="いいね数（on,off切替※）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
           <mxGeometry y="130" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="k88-d9VjDGWnWwPNP36y-27" value="コメント一覧" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
           <mxGeometry y="156" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k88-d9VjDGWnWwPNP36y-28" value="コメント入力フォーム" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
+        <mxCell id="k88-d9VjDGWnWwPNP36y-28" value="コメント入力フォーム※" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dAQDUS-45XpWEjmuFLyP-8">
           <mxGeometry y="182" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="k88-d9VjDGWnWwPNP36y-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dAQDUS-45XpWEjmuFLyP-19" target="dAQDUS-45XpWEjmuFLyP-22">
@@ -108,6 +108,17 @@
               <mxPoint x="320" y="480" />
               <mxPoint x="320" y="440" />
               <mxPoint x="560" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dAQDUS-45XpWEjmuFLyP-22" target="8d0hMVgpY54n9cvfxiN_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="480" />
+              <mxPoint x="320" y="440" />
+              <mxPoint x="480" y="440" />
+              <mxPoint x="480" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -167,6 +178,21 @@
         </mxCell>
         <mxCell id="k88-d9VjDGWnWwPNP36y-15" value="支援している国会議員" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k88-d9VjDGWnWwPNP36y-10">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-30" value="表示内容" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="495" y="510" width="140" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-31" value="議員名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="k88-d9VjDGWnWwPNP36y-30">
+          <mxGeometry y="22" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-32" value="議題" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="k88-d9VjDGWnWwPNP36y-30">
+          <mxGeometry y="48" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-33" value="発言内容" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="k88-d9VjDGWnWwPNP36y-30">
+          <mxGeometry y="74" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k88-d9VjDGWnWwPNP36y-34" value="いいね数（on,off切替）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="k88-d9VjDGWnWwPNP36y-30">
+          <mxGeometry y="100" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
